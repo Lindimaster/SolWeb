@@ -1,0 +1,52 @@
+#panelLogin
+{
+    display:inline-block;
+}
+#panelLogin form
+{
+    display:block;
+}
+
+/* To make the footer stay always on the ground. */
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#container 
+{
+    min-height: 100%;
+    position: relative;
+}
+
+#body 
+{
+    vertical-align:top;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 125px;
+}
+
+#footer 
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 125px;
+}
+
+.login 
+{
+    margin: 5px;
+}
+
+.button 
+{
+    margin: 5px;
+    height: 25px;
+    width: 100px;
+}
